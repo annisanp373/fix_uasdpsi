@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "./complaints/my-complaints.js",
+        "src": "./responses.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "./complaints/my-complaints.js"
+        "dest": "./responses.js"
       }
     ]
   }
